@@ -11,11 +11,13 @@
   ],
   "rules": {
     "camelcase": "error",
-    "indent": "error",
+    "indent": ["error", 2],
     "space-before-function-paren": "error",
     "space-before-blocks": "error",
     "semi": "error",
-    "no-console": "warn",
-    "no-trailing-spaces": "error"
+    "no-trailing-spaces": "error",
+    "@typescript-eslint/no-var-requires": 0,
+    "eol-last": "error",
+    "object-curly-spacing": ["error", "always"]
   }
 }
